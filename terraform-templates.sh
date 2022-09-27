@@ -108,8 +108,8 @@ echo "Create .gitignore file..."
 cat >.gitignore <<-IGNORE
 **/.terraform/**
 **/.terragrunt-cache/**
-**/keys/*
-*.pem
+*/keys/*.pem
+*/keys/*.pub
 IGNORE
 
 echo "Create default terraform folders..."
