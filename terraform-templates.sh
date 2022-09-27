@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-
-##git init && git branch -m main
-
 set -e
 
 echo "Create base terraform templates..."
