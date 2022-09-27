@@ -86,7 +86,7 @@ resource "aws_key_pair" "key_pair" {
 }
 
 resource "local_file" "ssh_key" {
-  filename  = "${aws_key_pair.key_pair.key_name}.pem"
+  filename  = aws_key_pair.key_pair.key_name
   content  = tls_private_key.key_pair.private_key_pem
 }
 KEYPAIR
