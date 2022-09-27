@@ -1,2 +1,2 @@
 # terratools
-Automation create files samples terraform 
+Collection of automation scripts that can be run on local work.
