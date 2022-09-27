@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-git init && git branch -m main
+##git init && git branch -m main
 
 set -e
 
